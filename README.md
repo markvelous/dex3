@@ -41,4 +41,4 @@ truffle test
 truffle migrate
 npm run start
 ```
-![](./screen.png)
+![](./Screen.png)
