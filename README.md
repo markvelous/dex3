@@ -37,6 +37,17 @@ npm install --save identicon.js@^2.3.3
 truffle test
 ```
 >Migrate the files and run the frontend at the [localhost](http://localhost:3000)
+
+>Create a secrets.json file on the root directory with the paramaters below and then add the file to .gitignore
+
+```
+{
+    "mnemonic": "markvelous remarkable ether ...",
+    "projectId": "API KEY"
+}
+```
+
+>Deploy the app (adjust the _timeoutBlocks_ in truffle-config.js if you have a slow network connection)
 ```
 truffle migrate
 npm run start
