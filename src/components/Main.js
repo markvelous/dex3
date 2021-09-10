@@ -31,16 +31,16 @@ class Main extends Component {
 
         <div className="d-flex justify-content-between mb-3">
           <button
-              className="btn btn-light"
+              className="btn btn-danger"
               onClick={(event) => {
                 this.setState({ currentForm: 'buy' })
               }}
             >
             Buy
           </button>
-          <span className="text-muted">&lt; &nbsp; &gt;</span>
+          <span className="text-muted">&#8678; &nbsp;&#20817;&nbsp; &#8680;</span>
           <button
-              className="btn btn-light"
+              className="btn btn-success"
               onClick={(event) => {
                 this.setState({ currentForm: 'sell' })
               }}
