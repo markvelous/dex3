@@ -47,9 +47,9 @@ truffle test
 }
 ```
 
->Deploy the app (adjust the _timeoutBlocks_ in truffle-config.js if you have a slow network connection)
+>Deploy the app on Rinkeby (adjust the _timeoutBlocks_ in truffle-config.js if you have a slow network connection)
 ```
-truffle migrate
+truffle migrate --network rinkeby
 npm run start
 ```
 ![](./Screen.png)
