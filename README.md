@@ -1,8 +1,6 @@
 # ENHANCED DEX
 
-`PT7210027 Mark Tan, SGBT4`
-
-### DEPENDENCIES
+>Install the following dependencies
 
 - [Node.js](https://nodejs.org)
 - [Ganache](https://www.trufflesuite.com/ganache)
